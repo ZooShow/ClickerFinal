@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpPower"
+    android:background="@drawable/back_up_power">
+
+    <TextView
+        android:id="@+id/power_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/gold_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:background="@color/MistyRose"
+        android:id="@+id/tetx_up_hero_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/up_power"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Увеличить"
+        android:background="@color/LemonChiffon"/>
+
+</FrameLayout>
